@@ -1,0 +1,16 @@
+{
+  "name": "api_js_ps-gtijr_2023.2",
+  "version": "1.0.0",
+  "description": "Desafio 03 do Processo Seletivo da GTI Jr. focado em aplicações JS envolvendo API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
