@@ -4,25 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
-    <link rel="icon" href="./images/pokebola.png">
+    <link rel="shortcut icon" href="images/pokebola.png" type="image/x-icon">
     <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
 </head>
-<body class="min-h-screen">
+<body class="min-h-screen bg-black">
+    <!-- Background -->
     <div class="bg-cover brightness-75" style="background-image: url('./images/wallpaper_main.jpg'); min-height: 100vh;">
-        <div class="flex flex-col items-center justify-center">
-            <div class="flex z-10 items-center mt-8 w-1/6">
+        
+        <!-- Container including each of four elements-->
+        <div class="flex flex-col items-center justify-center brightness-100">
+            <!-- Logo -->
+            <div class="flex z-10 items-center mt-8 w-1/3">
                 <img src="./images/pokemon-logo-png-1432.png" alt="logo">
             </div>
-            <div class="flex items-center justify-between">
-                <div class="flex z-10 items-center ml-16 min-h-fit w-1/6">
+            
+            <!-- Subcontainer including Ash, Lucario and center button-->
+            <div class="flex items-center justify-center space-x-20 space-y-12 z-20">
+                <!-- Ash -->
+                <div class="flex items-center w-1/6">
                     <img src="./images/PngItem_575739_Ash.png" alt="ash">
                 </div>
-                <div class="flex z-10 items-center ml-16 min-h-fit w-1/6">
+
+                <!-- Button -->
+                <div class="flex items-center justify-center w-1/6">
+                    <button class="bg-red-500 border-2 border-neutral-50 text-white px-6 py-4 rounded-full font-Pixelify-sans text-6xl "> <a href="menu.html">OPEN</a></button>
+                </div>
+
+                <!-- Lucario -->
+                <div class="flex items-center w-1/6 pb-10">
                     <img src="./images/PngItem_1327034_Lucario.png" alt="lucario">
                 </div>
-            </div>
-            
-            <div>
             </div>
         </div>
     </div>
